@@ -2,7 +2,12 @@
 
 int main(void)
 {
-    printf("hello world\r\n");
+    int i;
+    for (i = 0; i < 10; i++)
+    {
+        printf("hello world\r\n");
+    }
+    
     return 0;
 }
 
